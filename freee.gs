@@ -1,5 +1,5 @@
-const Client_ID = '';
-const Client_Secret = '';
+const Client_ID = PropertiesService.getScriptProperties().getProperty("clientId");;
+const Client_Secret = PropertiesService.getScriptProperties().getProperty("clientSecret");;
 
 function alertAuth() {
   var service = getService();
